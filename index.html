@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enfoque 360° SAC - Consultoría Educativa y Empresarial</title>
+    <title>Enfoque 360° SAC - Consultoría y Desarrollo Humano</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -13,9 +14,9 @@
             <div class="container">
                 <p>Bienvenido a Enfoque 360° SAC</p>
                 <div class="social-links">
-                    <a href="#"><img src="https://via.placeholder.com/20/ffffff?text=F" alt="Facebook"></a>
-                    <a href="#"><img src="https://via.placeholder.com/20/ffffff?text=I" alt="Instagram"></a>
-                    <a href="#"><img src="https://via.placeholder.com/20/ffffff?text=L" alt="LinkedIn"></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -26,11 +27,11 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">Inicio</a></li>
-                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#consultoria">Consultoría</a></li>
                     <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#digital">Servicios Digitales</a></li>
                 </ul>
-                <a href="#contact" class="btn-primary">¡Impulsa tu Éxito!</a>
+                <a href="#contact" class="btn-primary">Contáctanos</a>
             </div>
         </nav>
     </header>
@@ -38,109 +39,119 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <span><img src="https://via.placeholder.com/20/A8FF00?text=+" alt=""> Eleva tu Marca con</span>
-                <h1>Impulsa tu Éxito con Experticia Digital</h1>
-                <p>En Enfoque 360° SAC, transformamos el potencial en desempeño. Ofrecemos consultoría en educación empresarial, coaching, marketing digital y producción audiovisual educativa.</p>
-                <a href="#services" class="btn-secondary">Explora Servicios</a>
+                <span><i class="fa-solid fa-people-group accent-icon"></i> Consultoría & Desarrollo Humano</span>
+                <h1>Crecimiento Integral para Personas y Organizaciones</h1>
+                <p>Facilitamos formaciones y herramientas para el desarrollo funcional, cognitivo, emocional y espiritual de tus equipos.</p>
+                <a href="#consultoria" class="btn-secondary">Nuestros Programas</a>
             </div>
             <div class="hero-image">
-                <img src="https://via.placeholder.com/500x350/cccccc/ffffff?text=Equipo+Enfoque+360" alt="Equipo de Consultores">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&q=80" alt="Líder en sesión de coaching con su equipo">
             </div>
         </div>
     </section>
 
-    <section class="expertise-section">
+    <section id="consultoria" class="main-services-section">
         <div class="container">
-            <div class="expertise-header">
-                <span><img src="https://via.placeholder.com/15/A8FF00?text=*" alt=""> Nuestro Enfoque</span>
-                <h2>Potenciando tu Éxito con Experticia Integral</h2>
-                <p>Descubre cómo nuestras soluciones personalizadas pueden impulsar el crecimiento y la eficiencia de tu organización.</p>
+            <div class="section-header">
+                <span><i class="fa-solid fa-star accent-icon"></i> Nuestra Especialidad</span>
+                <h2>Consultoría y Desarrollo Humano</h2>
+                <p>Potenciamos el talento a través de programas diseñados para el liderazgo y la colaboración.</p>
             </div>
-            <div class="expertise-grid">
-                <div class="grid-item">
-                    <h3>Educación Empresarial</h3>
-                    <p>Programas de capacitación a medida para fortalecer las habilidades de tus equipos.</p>
+            <div class="main-services-grid">
+                <div class="service-showcase-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500&q=80" alt="Coach ejecutivo en sesión uno a uno">
+                    </div>
+                    <div class="service-content">
+                        <h3>Coaching Ejecutivo</h3>
+                        <p>Acompañamiento personalizado para líderes, enfocado en potenciar habilidades de gestión, toma de decisiones y comunicación estratégica para alcanzar objetivos de alto impacto.</p>
+                        <a href="#" class="service-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <h3>Coaching & Mentoring</h3>
-                    <p>Acompañamiento personalizado para el desarrollo de líderes y colaboradores.</p>
+                <div class="service-showcase-card reverse">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&q=80" alt="Equipo de trabajo colaborando en un taller">
+                    </div>
+                    <div class="service-content">
+                        <h3>Team Coaching</h3>
+                        <p>Fortalecemos la sinergia y el rendimiento de los equipos. Trabajamos en la comunicación, confianza y objetivos comunes para construir una cultura de alta colaboración y eficiencia.</p>
+                        <a href="#" class="service-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <h3>Marketing Digital</h3>
-                    <p>Estrategias integrales para posicionar tu marca en el sector educativo y empresarial.</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Producción Audiovisual</h3>
-                    <p>Contenido educativo de alto impacto para tus programas de formación y comunicación.</p>
+                <div class="service-showcase-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=500&q=80" alt="Persona usando una plataforma de e-learning en una tablet">
+                    </div>
+                    <div class="service-content">
+                        <h3>Plataforma Digital Educativa</h3>
+                        <p>Ofrecemos una solución de e-learning personalizable (marca blanca) para que las empresas gestionen sus propias capacitaciones, con contenido interactivo y seguimiento del progreso.</p>
+                        <a href="#" class="service-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="boost-brand-section">
+    <section id="about" class="identity-section">
         <div class="container">
-            <span><img src="https://via.placeholder.com/15/A8FF00?text=*" alt=""> Nuestros Servicios</span>
-            <h2>Impulsa tu Marca con Nuestra Experiencia</h2>
-            <div class="service-cards-grid">
-                <div class="service-card dark">
-                    <h3>Educación Empresarial</h3>
-                    <p>Diseño y ejecución de programas de formación a medida.</p>
-                    <a href="#">Más información <img src="https://via.placeholder.com/10/A8FF00?text=%3E" alt=""></a>
+            <div class="mission-container">
+                <div class="mission-content">
+                    <span><i class="fa-solid fa-bullseye accent-icon"></i> Nuestra Misión</span>
+                    <h2>Facilitar el Crecimiento Integral</h2>
+                    <p>Facilitar formaciones y herramientas que permitan el crecimiento de las personas a nivel funcional, cognitivo, emocional y espiritual, para que alcancen la prosperidad y plenitud de manera integral.</p>
                 </div>
-                <div class="service-card light">
-                    <h3>Coaching & Mentoring</h3>
-                    <p>Desarrollo de liderazgo y habilidades blandas con acompañamiento experto.</p>
-                    <a href="#">Más información <img src="https://via.placeholder.com/10/A8FF00?text=%3E" alt=""></a>
+                <div class="mission-image">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&q=80" alt="Manos unidas simbolizando apoyo y crecimiento">
                 </div>
-                <div class="service-card dark">
-                    <h3>Marketing Digital</h3>
+            </div>
+            <div class="values-container">
+                <h3>Nuestros Valores</h3>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h4><i class="fa-solid fa-handshake"></i> Confianza</h4>
+                        <p>Fomentamos relaciones auténticas y de progreso genuino.</p>
+                    </div>
+                    <div class="value-card">
+                        <h4><i class="fa-solid fa-gift"></i> Generosidad</h4>
+                        <p>En ella podemos descubrir la verdadera riqueza interior.</p>
+                    </div>
+                    <div class="value-card">
+                        <h4><i class="fa-solid fa-shuffle"></i> Flexibilidad</h4>
+                        <p>Nos permite transformar los desafíos en oportunidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="digital" class="digital-services-section">
+        <div class="container">
+            <div class="section-header">
+                <span><i class="fa-solid fa-rocket accent-icon"></i> Servicios de Impulso Digital</span>
+                <h2>Potenciamos tu Presencia en el Mercado</h2>
+                <p>Complementamos nuestras consultorías con servicios tecnológicos que amplifican tu mensaje y alcance.</p>
+            </div>
+            <div class="digital-cards-grid">
+                <div class="digital-card">
+                    <h4>Marketing Digital</h4>
                     <p>Estrategias SEO, SEM y redes sociales para maximizar tu visibilidad.</p>
-                    <a href="#">Más información <img src="https://via.placeholder.com/10/A8FF00?text=%3E" alt=""></a>
+                    <a href="#">Más información <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card light">
-                    <h3>Producción Audiovisual</h3>
-                    <p>Videos corporativos y educativos de alta calidad que impactan.</p>
-                    <a href="#">Más información <img src="https://via.placeholder.com/10/A8FF00?text=%3E" alt=""></a>
+                <div class="digital-card">
+                    <h4>Producción Audiovisual</h4>
+                    <p>Videos corporativos y educativos de alta calidad que generan impacto.</p>
+                    <a href="#">Más información <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="why-us-section">
-        <div class="container">
-            <span><img src="https://via.placeholder.com/15/A8FF00?text=*" alt=""> ¿Por qué Elegirnos?</span>
-            <h2>Nuestros Clientes Confían en Nuestra Diferencia</h2>
-            <div class="why-us-content">
-                <div class="why-us-image">
-                    <img src="https://via.placeholder.com/400x300/cccccc/ffffff?text=Equipo+Trabajando" alt="Equipo trabajando en Enfoque 360°">
-                </div>
-                <div class="why-us-points">
-                    <div class="point">
-                        <span class="icon">01</span>
-                        <h3>Enfoque 360°</h3>
-                        <p>Visión integral para soluciones completas y sostenibles.</p>
-                    </div>
-                    <div class="point">
-                        <span class="icon">02</span>
-                        <h3>Expertos Certificados</h3>
-                        <p>Equipo multidisciplinario con amplia experiencia y credenciales.</p>
-                    </div>
-                    <div class="point">
-                        <span class="icon">03</span>
-                        <h3>Resultados Medibles</h3>
-                        <p>Comprometidos con el impacto real y la mejora continua.</p>
-                    </div>
-                    <div class="point">
-                        <span class="icon">04</span>
-                        <h3>Innovación Constante</h3>
-                        <p>A la vanguardia de las últimas metodologías y tecnologías.</p>
-                    </div>
+                <div class="digital-card">
+                    <h4>Diseño Web y Plataformas</h4>
+                    <p>Desarrollo de sitios web y aplicaciones educativas funcionales y atractivas.</p>
+                    <a href="#">Más información <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <p>&copy; 2025 Enfoque 360° SAC. Todos los derechos reservados.</p>
             <div class="footer-links">
@@ -149,7 +160,6 @@
             </div>
         </div>
     </footer>
-
     <script src="js/script.js"></script>
 </body>
 </html>
